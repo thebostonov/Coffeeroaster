@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-style: normal;
+    src: url('Fraunces9ptS000-Black.woff2') format('woff2'),
+        url('Fraunces9ptS000-Black.woff') format('woff'),
+        url('Fraunces9ptS000-Black.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'Fraunces Black';
+    font-weight: 900;
+    font-style: normal;
+    src:url('Fraunces-Black.woff2') format('woff2'),
+        url('Fraunces-Black.woff') format('woff'),
+        url('Fraunces-Black.ttf') format('truetype')
+} 
+/* barlow-regular - latin */
+@font-face {
+    font-family: 'Barlow 400';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/barlow-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/barlow-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/barlow-v5-latin-regular.ttf') format('truetype')/* Safari, Android, iOS */
+}
+/* barlow-500 - latin */
+@font-face {
+    font-family: 'Barlow 500';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/barlow-v5-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/barlow-v5-latin-500.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/barlow-v5-latin-500.ttf') format('truetype')/* Safari, Android, iOS */
+}
+/* barlow-600 - latin */
+@font-face {
+    font-family: 'Barlow 600';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/barlow-v5-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/barlow-v5-latin-600.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/barlow-v5-latin-600.ttf') format('truetype')/* Safari, Android, iOS */
+}
+/* barlow-700 - latin */
+@font-face {
+    font-family: 'Barlow 700';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/barlow-v5-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/barlow-v5-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/barlow-v5-latin-700.ttf') format('truetype')/* Safari, Android, iOS */
+}

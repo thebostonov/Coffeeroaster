@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Fraunces 9pt S000';
+    src: url('Fraunces9ptS000-Black.woff2') format('woff2'),
+        url('Fraunces9ptS000-Black.woff') format('woff'),
+        url('Fraunces9ptS000-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

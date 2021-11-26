@@ -1,24 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/main.css">
-    <title>SCSS STARTER</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap" rel="stylesheet">
+    <title>Coffeeroasters</title>
 </head>
 <body>
     <!-- HEADER -->
     <header class="header">
-
+        <div class="container header__container">
+            <a class="header__logo" href="#"><img class="header__logo-img" src="./images/logobek.svg" alt="site logo" width="236" height="26"></a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a class="header__link" href="#">Home</a></li>
+                    <li class="header__item"><a class="header__link" href="about.html">About Us</a></li>
+                    <li class="header__item"><a class="header__link" href="create.html">Create your plan</a></li>
+            </nav>
+            <button class="header__hamburger"></button>
+        </div>
     </header>
     <!-- MAIN -->
     <main class="main">
-
+        <!-- SECTION HERO -->
+        <div class="container">
+            <section class="hero hero__container">
+                <div class="hero__textbox">
+                    <h1 class="hero__heading">Great coffee
+                        made simple.
+                    </h1>
+                    <p class="hero__desc">
+                        Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from
+                        our best roasters delivered directly to your door, at your schedule.
+                    </p>
+                    <button type="button" class="button hero__btn">
+                        Create your plan
+                    </button>
+                </div>
+            </section>
+        </div>
     </main>
     <!-- FOOTER -->
     <footer class="footer">
 
     </footer>
+    <!-- JS CODE -->
+    <script src="./js/index.js"></script>
 </body>
 </html>

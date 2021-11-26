@@ -1,0 +1,104 @@
+.header{
+    padding: 40px 0px;
+    
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;  
+    }
+    &__logo{
+        flex-shrink: 0;
+
+        &__logo-img:hover {
+            opacity: 0.7;
+        }
+        &__logo-img:active{
+            opacity: 0.5;
+        }
+    }
+    &__nav{
+        display: flex;
+        align-items: center;
+        white-space: nowrap;   
+        
+    }
+    &__list{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;  
+    }
+    &__item + &__item {
+        margin-left: 32px;
+    }
+    &__link {
+        display: inline-block;
+        font-family: 'Barlow 700';
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #83888F;
+    }
+    &__link:hover{
+        color:#444;
+    }
+    &__link:active{
+        color:#333;
+    }
+    &__hamburger{
+        display: none;
+        width: 16px;
+        height: 15px;
+        background-image: url("../../images/bars-solid.svg");
+        background-repeat: no-repeat;
+        background-color: transparent;
+        border: none;
+    }
+}
+
+@media only screen and(max-width:327px){
+
+    .header{
+        position: relative;
+        padding-top: 32px;
+        &__logo-img{
+            width: 163px;
+            height: 18px;
+        }
+        &__hamburger {
+            display: inline-block;
+        }
+    
+        &__nav {
+            display: none;
+        }
+        &__item + &__item {
+            margin-left: 0px;
+        }
+    }  
+    .header--open .header__nav {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: dodgerblue;
+    }
+  
+    .header--open .header__list {
+        flex-direction: column;
+    }
+    .header--open .header__item{
+        align-self: center;
+    }
+    .header--open .header__link {
+        color: white;
+    }
+  
+    .header--open .header__hamburger {
+        background-image: url("../images/times-solid.svg");
+    }
+
+}
