@@ -43,7 +43,8 @@
         padding: 104px 0px; 
 
         &__textbox{
-            width: 398px;
+            width: 100%;
+            max-width: 398px;
             margin-left: 58px;
         }
 
@@ -61,7 +62,7 @@
     }
 }
 
-@media only screen and(max-width:375px){
+@media only screen and(max-width:500px){
     .hero{
         padding: 100px 0px;
         background-image: url("../../images/Bitmap.jpg");
@@ -70,24 +71,24 @@
         background-size: cover;
 
         &__textbox{
-            display: flex;
-            flex-direction: column;
-            align-items:center;
-            width: 297px;
+            width:100%;
+            max-width: 297px;
             margin:0 auto;
-            
+            align-items:center;
         }
 
         &__heading{
             margin-bottom: 24px;
             font-size: 40px;
             line-height: 40px;
+            text-align: center;
         }
         
         &__desc{
             margin-bottom: 40px;
             font-size: 15px;
             line-height: 25px;  
+            text-align: center;
         }
     }
 }
