@@ -1,6 +1,6 @@
 .main{
     flex-grow: 1;
-
+    // COLLECTION SCSS CODES
     .collection{
         padding-top: 136px;
         padding-bottom: 200px;
@@ -10,12 +10,24 @@
             padding: 0px;
         }
 
+        &__list {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            align-items:center;
+            justify-content: center;
+            position: relative;
+            z-index: 2;
+            margin: -15px;
+        }
         // &__back {
+        //     width:100%;
+        //     padding: 25px 0px;
         //     font-family: 'Fraunces';
         //     font-weight: 900;
         //     font-size: 150px;
         //     line-height: 72px;
-        //     text-align: center;
         //     opacity: 0.5;
         //     background: linear-gradient(180deg, #83888F 0%, #FEFCF7 100%);
         //     -webkit-background-clip: text;
@@ -25,16 +37,6 @@
         //     position: relative;
         //     z-index: 1;  
         // }
-        &__list {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-wrap: wrap;
-            position: relative;
-            top: -40px;
-            z-index: 2;
-            margin: -15px;
-        }
         &__item {
             width: 255px;
             display: flex;
@@ -67,6 +69,7 @@
    
 }
 
+// COLLECTION OF MEDIA CODES HAS BEEN WRITTEN FOR MAX-WIDTH:1165PX.
 @media only screen and(max-width:1165px){
     .collection{
        
@@ -75,4 +78,13 @@
         }
     }
 }
+
+@media only screen and (max-width:1145px){
+    .collection{
+
+    }
+}
+
+
+
 
