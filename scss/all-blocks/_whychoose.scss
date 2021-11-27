@@ -88,8 +88,40 @@
         color: #FEFCF7;
     } 
 }
+@media only screen and(max-width:1200px){
+    .whychoose{
+        &__item{
+            width:320px;
+            padding: 60px 38px 38px 27px;
+        }
+    }
+}
+@media only screen and(max-width:1110px){
+    .whychoose{
+        &__item{
+            width:300px;
+            padding: 30px 20px 20px 15px;
+        }
+    }
+}
+@media only screen and(max-width:1050px){
+    .whychoose{
+        &__item{
+            width:270px;
+            padding: 30px 20px 20px 15px;
+        }
+    }
+}
+@media only screen and(max-width:959px){
+    .whychoose{
+        &__item{
+            width:250px;
+            padding: 30px 20px 20px 15px;
+        }
+    }
+}
 // WHYCHOOSE OF MEDIA CODES HAS BEEN WRITTEN FOR MAX-WIDTH:1179PX.
-@media only screen and(max-width:1179px){
+@media only screen and(max-width:960px){
     .whychoose{
         padding-top: 56px;
         padding-bottom: 368px;
@@ -102,18 +134,20 @@
         &__desc{
             font-size: 15px;
             line-height: 25px;
+            width:100%;
+            padding: 0px 20px;
         }
         &__list {
             display: flex;
             flex-direction: column;
+            width:100%;
         }
     
         &__item {
             display: flex;
             flex-direction: row;
             align-items: center;
-            justify-content: space-between;
-            width: 100%;
+            width: 90%;
             padding: 41px 48px 41px 70px;
         }
         &__item-img {
@@ -122,6 +156,7 @@
             margin-bottom: 0;
             display: flex;
             align-items: flex-end;
+            margin-right: 55px;
         }
         &__item-textbox{
             display: flex;
@@ -142,8 +177,9 @@
         } 
     }
 }
-// WHYCHOOSE OF MEDIA CODES HAS BEEN WRITTEN FOR MAX-WIDTH:620PX.
-@media only screen and(max-width:620px){
+
+// WHYCHOOSE OF MEDIA CODES HAS BEEN WRITTEN FOR MAX-WIDTH:550PX.
+@media only screen and(max-width:550px){
     .whychoose{
         padding-top: 64px;
         padding-bottom: 661px;
@@ -178,6 +214,7 @@
         &__item-img {
             width: 56px;
             height: 56px;
+            margin-right: 0px;
             margin-bottom: 56px;
             display: flex;
             align-items: flex-end;
