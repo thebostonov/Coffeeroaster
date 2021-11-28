@@ -1,12 +1,13 @@
 .footer{
-    padding-top: 84px;
+    width:100vw;
+    background-color: #2C343E;  
     
     &__container {
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 40px 85px;
-        background-color: #2C343E;    
+         
     }
     &__link:hover {
         opacity: 0.7;
@@ -16,7 +17,7 @@
     }
     &__logo {
         display: inline-block;
-        margin-right: 103px;
+        margin-right: 100px;
     }
     &__list {
         margin: 0;

@@ -1,0 +1,98 @@
+.about-hero{
+    width:100%;
+    padding: 137px 0px; 
+    background-image: url("../images/about-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;    
+    border-radius: 10px;
+    
+    &__text {
+        padding-left: 11%;
+    }
+    &__headline {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 24px;
+        font-family: 'Fraunces',sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+    }
+    &__desc {
+        width: 445px;
+        margin: 0;
+        padding: 0;
+        font-family: 'Barlow 400';
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+    }
+}
+@media only screen and (max-width:900px){
+    .about-hero{
+        padding: 118px 0px; 
+        background-image: url("../images/tablet-hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: contain;    
+        border-radius: 10px;       
+    } 
+}
+@media only screen and (max-width:690px){
+    .about-hero{
+        background-position: left -60px center;   
+       
+        &__headline{
+            font-size: 32px;
+            line-height: 40px;
+        }    
+        &__desc{
+            font-size: 15px;
+            line-height: 25px;  
+        }   
+    } 
+}
+@media only screen and (max-width:645px){
+    .about-hero{
+        background-position: left -90px center;   
+             
+    } 
+}
+@media only screen and (max-width:590px){
+    .about-hero{
+        background-position: left -100px center;   
+             
+    } 
+}
+@media only screen and (max-width:550px){
+    .about-hero{
+        padding-top:111px;
+        padding-bottom: 87px;
+        &__text{
+            text-align: center;
+            padding-left: 0px;
+            padding: 0px 24px;
+        }
+        &__headline{
+            width:100%;
+            font-size: 28px;
+            line-height: 28px;
+        }  
+        &__desc{
+            width:100%;
+        }  
+    }
+}
+@media only screen and (max-width:490px){
+    .about-hero{
+        background-image: url("../../images/amobile-hero.jpg"); 
+        background-position:center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: contain;
+    }
+}
+
+
