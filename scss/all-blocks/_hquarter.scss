@@ -1,0 +1,105 @@
+.hquarter{
+    padding: 168px 0;  
+
+    &__container{
+        padding-left: 95px;
+    }    
+    &__headline {
+        margin:0;
+        padding: 0;
+        margin-bottom: 6%;
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+    }
+    &__list {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: baseline;
+        flex-direction: row;
+    }
+    &__item {
+        width: 22%;
+        display: flex;
+        flex-direction: column; 
+    }
+    &__item-heading {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 9%;
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+    }
+
+    &__item-desc {
+        margin: 0;
+        padding: 0;
+        font-family: 'Barlow 400';
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;       
+    }
+    &__img {
+        width: 52px;
+        height: 52px;
+        margin-bottom: 17%;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    &__item + &__item{
+        margin-left: 8%;
+    }
+}
+@media only screen and (max-width:749px){
+    .hquarter{
+        &__container{
+            padding-left: 20px;
+        } 
+        &__item-heading{
+            font-size: 24px;
+        }
+    }
+}
+@media only screen and (max-width:550px){
+    .hquarter{
+        &__container{
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__headline{
+            align-self: center;
+            margin-bottom: 15%;
+        }
+        &__list{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__item{    
+            text-align: center;
+            margin-bottom: 16%;
+        }
+        &__item-heading{
+            font-size: 28px;
+            line-height: 36px;
+            margin-bottom: 22px;  
+        }
+        &__item + &__item{
+            margin-left: 0;
+        }
+        &__img {
+            align-self: center;        
+        }
+    }
+}
